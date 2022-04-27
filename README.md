@@ -1,0 +1,2 @@
+# blackboxExporter-kustomize
+Kustomization deploying blackboxExporter
