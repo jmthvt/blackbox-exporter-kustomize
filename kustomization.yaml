@@ -1,0 +1,11 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- ./manifests/blackboxExporter-clusterRole.yaml
+- ./manifests/blackboxExporter-clusterRoleBinding.yaml
+- ./manifests/blackboxExporter-configuration.yaml
+- ./manifests/blackboxExporter-deployment.yaml
+- ./manifests/blackboxExporter-networkPolicy.yaml
+- ./manifests/blackboxExporter-service.yaml
+- ./manifests/blackboxExporter-serviceAccount.yaml
+- ./manifests/blackboxExporter-serviceMonitor.yaml
